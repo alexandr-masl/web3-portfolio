@@ -1,5 +1,6 @@
 {
-  "name": "threejs-3d-portfolio",
+  "homepage": "https://alexandr-masl.github.io/web3-portfolio/",
+  "name": "web3-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
