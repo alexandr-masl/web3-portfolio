@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Alex",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    p: ["I develop web3 applications"],
   },
   contact: {
     p: "Get in touch",
@@ -67,15 +67,14 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
+      content: `I'm a skilled software developer with experience in Solidity, TypeScript,
+      JavaScript, and expertise in frameworks and tools like Hardhat, React and Node.js. I'm a quick learner and collaborate closely with clients to
+      create efficient, scalable, and user-friendly web3 solutions that solve
       real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
       p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: "Hack Experience.",
     },
     feedbacks: {
       p: "What others say",
@@ -83,10 +82,9 @@ export const config: TConfig = {
     },
     works: {
       p: "My work",
-      h2: "Projects.",
+      h2: "WEB3 Projects.",
       content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
+    real-world examples of my work. It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },

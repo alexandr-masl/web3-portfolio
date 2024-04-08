@@ -24,14 +24,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  trophy,
+  bitshares,
+  alloLogo,
+  cryptoRoboot
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -41,7 +41,7 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Hacks",
   },
   {
     id: "contact",
@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Web3 Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Solidity Developer",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Contract Creator",
     icon: creator,
   },
 ];
@@ -127,8 +127,8 @@ const experiences: TExperience[] = [
   {
     title: "React.js Developer",
     companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: alloLogo,
+    iconBg: "#E6DEDD",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -140,8 +140,8 @@ const experiences: TExperience[] = [
   {
     title: "React Native Developer",
     companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: trophy,
+    iconBg: "#383E56",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -153,8 +153,8 @@ const experiences: TExperience[] = [
   {
     title: "Web Developer",
     companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: cryptoRoboot,
+    iconBg: "#E6DEDD",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -166,8 +166,8 @@ const experiences: TExperience[] = [
   {
     title: "Full stack Developer",
     companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: bitshares,
+    iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
