@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "maslineze",
+    title: "maslineze.eth",
     fullName: "Alex",
     email: "johndoe@mail.com",
   },
   hero: {
     name: "Alex",
-    p: ["I develop web3 applications"],
+    p: ["I'm a blockchain engineer."],
   },
   contact: {
     p: "Get in touch",
@@ -67,14 +67,11 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in Solidity, TypeScript,
-      JavaScript, and expertise in frameworks and tools like Hardhat, React and Node.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly web3 solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a blockchain enthusiast and skilled blockchain engineer with experience in Solidity, TypeScript, JavaScript, and expertise in frameworks and tools like Hardhat. I have extensive skills in working with nodes, setting up blockchain infrastructure, and launching full stack deployments of various private and public blockchains. I'm also proficient in EVM-compatible chains. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly web3 solutions that address real-world problems. Let's work together to bring web3 ideas to life!`,
     },
     experience: {
       p: "What I have done so far",
-      h2: "Hack Experience.",
+      h2: "Recent Hacks",
     },
     feedbacks: {
       p: "What others say",

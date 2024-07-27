@@ -31,7 +31,12 @@ import {
   trophy,
   bitshares,
   alloLogo,
-  cryptoRoboot
+  cryptoRoboot,
+  gitCoinLogo,
+  chainLinkLogo,
+  privateLayerLogo,
+  DAO_Driven_Image,
+  Private_Chain_Image
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -125,56 +130,71 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: alloLogo,
-    iconBg: "#E6DEDD",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
+    title: "🏆Hackathon Winner",
+    projectLink: "https://app.buidlbox.io/projects/dao-drive?path=projects%2Fdao-drive",
+    companyName: "Allo-V2 by GitCoin",
+    companyLink: "https://allo.gitcoin.co/",
     icon: trophy,
-    iconBg: "#383E56",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: cryptoRoboot,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2023 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "WEB3 CROWDFUNDING:",
+      "Empowering Developers and Investors: Decentralized GrantStream bridges the gap between developers and investors, providing a transparent and democratic crowdfunding platform leveraging Arbitrum, Allo-V2, and Hats protocols.",
+      "Milestone-Based Funding: Projects are funded and managed through a milestone-based approach, ensuring accountability and progress, with investors having the power to approve or reject milestones.",
+      "Dynamic Investor Participation: Investors can freely fund projects, gain proportional voting rights, and retract funding if needed, ensuring a flexible and secure investment environment.",
+      "Innovative Reward System: Successful projects may distribute rewards back to investors based on their initial contributions, fostering a mutually beneficial ecosystem for all participants."
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: bitshares,
+    title: "GitCoin Rounds Participant",
+    projectLink: "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xd71334a228d2c9f81d67cba4f06896afa8255951444cd57e3c3a2299822e979e",
+    companyName: "GitCoin",
+    companyLink: "https://www.gitcoin.co/",
+    icon: gitCoinLogo,
     iconBg: "#383E56",
-    date: "Jan 2023 - Present",
+    date: "April 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "DAO DRIVEN:",
+      "An initial hackathon project was significantly upgraded and transformed into the DAO Driven platform, enhancing its scope and capabilities.",
+      "The DAO Driven project was successfully deployed to the Arbitrum Mainnet, ensuring a secure and efficient environment for its operations.",
+      "The project's frontend was comprehensively restyled and upgraded, providing an improved user interface and experience.",
+      "Extensive social outreach efforts were undertaken to attract more donations and support for the project, increasing its visibility and community engagement."
     ],
+  },
+  {
+    title: "🍀Hackathon Participant",
+    projectLink: "https://dorahacks.io/buidl/13427",
+    companyName: "Fraxtal Network",
+    companyLink: "https://frax.finance/",
+    icon: privateLayerLogo,
+    iconBg: "white",
+    date: "Jun 2024 - Jul 2024",
+    points: [
+      "PRIVATE L3 + NATIVE BRIDGE:",
+      "Dual-Chain Architecture: PrivateLayer utilizes both public (e.g., Arbitrum, Avalanche) and private networks (e.g., Orbit Network, Avalanche Subnet) to offer flexible and secure blockchain solutions.",
+      "Token Bridge Mechanism: The protocol enables seamless token transfers between public and private chains using a sophisticated deposit, storage, validation, and minting process.",
+      "Robust Security and Privacy: Leveraging oracle nodes, validator nodes, and Merkle proofs, PrivateLayer ensures data integrity, transaction security, and privacy across both chains.",
+      "Advanced Smart Contracts: Includes Bridge Contract for cross-chain token management, OracleDepositStorage for data handling, and ERC20Handler for token operations.",
+      "Comprehensive Technical Stack: Built with Solidity for smart contracts, OpenZeppelin for security, Hardhat for development, Ethers.js for Ethereum interaction, and MerkleTree.js for proof generation."
+    ]
+    
+  },
+  {
+    title: "PriceOracle powered by Chainlink",
+    projectLink: "https://github.com/alexandr-masl/chainlink-oracle",
+    companyName: "Open Source",
+    companyLink: "https://chain.link/",
+    icon: chainLinkLogo,
+    iconBg: "#005BD7",
+    date: "Jul 2024 - Aug 2024",
+    points: [
+      "PRICE ORACLE:",
+      "Flexible Chainlink Integration: Demonstrates the adaptability of Chainlink oracles for implementing various types of data and logic within smart contracts.",
+      "Custom Token Support: Allows the use of a custom token that implements the ERC677 standard for token transfers and data payloads, providing flexibility for networks without native LINK token support.",
+      "Comprehensive Setup Guide: Provides detailed instructions for setting up a Chainlink node, obtaining testnet LINK and Sepolia ETH, and deploying the PriceOracle contract for data requests.",
+      "Advanced Token Bridge Mechanism: Utilizes oracle and validator nodes to ensure secure token transfers between public and private networks, leveraging Merkle proofs for data integrity.",
+      "Robust Technical Stack: Built with Solidity for smart contract development, OpenZeppelin for security, Hardhat for the development environment, Ethers.js for Ethereum interactions, and MerkleTree.js for proof generation."
+    ]    
   },
 ];
 
@@ -207,7 +227,7 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "DAO Driven",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -224,11 +244,11 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: DAO_Driven_Image,
+    sourceCodeLink: "https://explorer.gitcoin.co/#/projects/0xd71334a228d2c9f81d67cba4f06896afa8255951444cd57e3c3a2299822e979e",
   },
   {
-    name: "Job IT",
+    name: "Private Chain",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -245,11 +265,11 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: Private_Chain_Image,
+    sourceCodeLink: "https://github.com/alexandr-masl/privateLayer",
   },
   {
-    name: "Trip Guide",
+    name: "Price Oracle",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [

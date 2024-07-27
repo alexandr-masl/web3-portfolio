@@ -6,6 +6,8 @@ export type TCommonProps = {
 
 export type TExperience = {
   companyName: string;
+  companyLink: string;
+  projectLink: string;
   iconBg: string;
   date: string;
   points: string[];

@@ -57,18 +57,21 @@ const Navbar = () => {
       }`}
     >
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
-          <p className="flex cursor-pointer text-[18px] font-bold text-white ">
-            {config.html.title}
-          </p>
-        </Link>
+      <a
+        href="https://app.ens.domains/maslineze.eth"
+        className="flex items-center gap-2"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={() => {
+          window.scrollTo(0, 0);
+        }}
+      >
+        <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
+        <p className="flex cursor-pointer text-[18px] font-bold text-white ">
+          {config.html.title}
+        </p>
+      </a>
+
 
         <ul className="hidden list-none flex-row gap-10 sm:flex">
           {navLinks.map((nav) => (

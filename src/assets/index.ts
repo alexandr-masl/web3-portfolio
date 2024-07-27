@@ -29,6 +29,12 @@ import cryptoRoboot from "./company/cryptoRoboot.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gitCoinLogo from "./company/GitCoinLogo.png";
+import chainLinkLogo from "./company/chainlink-link-icon-1.png";
+import privateLayerLogo from "./company/privateLayerIcon.png";
+import DAO_Driven_Image from "./company/Dao-Driven-Image.png";
+import Private_Chain_Image from "./company/Private-Chain-Image.png";
+
 
 export {
   logo,
@@ -58,5 +64,10 @@ export {
   trophy,
   bitshares,
   alloLogo,
-  cryptoRoboot
+  cryptoRoboot,
+  gitCoinLogo,
+  chainLinkLogo,
+  privateLayerLogo,
+  DAO_Driven_Image,
+  Private_Chain_Image
 };
