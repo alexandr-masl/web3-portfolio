@@ -24,19 +24,14 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   trophy,
-  bitshares,
-  alloLogo,
-  cryptoRoboot,
   gitCoinLogo,
   chainLinkLogo,
   privateLayerLogo,
   DAO_Driven_Image,
-  Private_Chain_Image
+  Private_Chain_Image,
+  ChainLink_Image
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -229,19 +224,27 @@ const projects: TProject[] = [
   {
     name: "DAO Driven",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web3 crowdfunding platform connecting developers and investors. Submit projects, fund with flexibility, manage milestones, and ensure accountability with democratic voting and fund reclamation options.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "DAO",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "solidity",
         color: "pink-text-gradient",
+      },
+      {
+        name: "blockchain",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "smartcontracts",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "decentralized",
+        color: "blue-text-gradient",
       },
     ],
     image: DAO_Driven_Image,
@@ -250,43 +253,64 @@ const projects: TProject[] = [
   {
     name: "Private Chain",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      "Private Chain: Deploy private L3 blockchains with native bridge for EVM chains. Supports Orbit and Avalanche Subnets. Secure, customizable infrastructure with dual-chain architecture, token bridge, and decentralized validation.",
+      tags: [
+        {
+          name: "blockchain",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "private",
+          color: "green-text-gradient",
+        },
+        {
+          name: "evm",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "security",
+          color: "red-text-gradient",
+        },
+        {
+          name: "bridge",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "decentralized",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "solidity",
+          color: "orange-text-gradient",
+        },
+      ]
+      ,
     image: Private_Chain_Image,
     sourceCodeLink: "https://github.com/alexandr-masl/privateLayer",
   },
   {
     name: "Price Oracle",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "PriceOracle demo showcases Chainlink oracles' flexibility. Supports custom tokens on Sepolia. Use ERC677 tokens for requests. Deploy, run Chainlink node, and add jobs for price data.",
     tags: [
       {
-        name: "nextjs",
+        name: "chainlink",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "oracle",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "solidity",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodes",
+        color: "purple-text-gradient",
+      }
     ],
-    image: tripguide,
+    image: ChainLink_Image,
     sourceCodeLink: "https://github.com/",
   },
 ];

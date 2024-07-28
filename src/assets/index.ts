@@ -22,18 +22,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import trophy from "./company/trophy.webp";
-import bitshares from "./company/bitshares.svg";
-import alloLogo from "./company/alloLogo.png";
-import cryptoRoboot from "./company/cryptoRoboot.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import gitCoinLogo from "./company/GitCoinLogo.png";
 import chainLinkLogo from "./company/chainlink-link-icon-1.png";
 import privateLayerLogo from "./company/privateLayerIcon.png";
 import DAO_Driven_Image from "./company/Dao-Driven-Image.png";
 import Private_Chain_Image from "./company/Private-Chain-Image.png";
+import ChainLink_Image from "./company/chainlink-image.png";
 
 
 export {
@@ -58,16 +52,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   trophy,
-  bitshares,
-  alloLogo,
-  cryptoRoboot,
   gitCoinLogo,
   chainLinkLogo,
   privateLayerLogo,
   DAO_Driven_Image,
-  Private_Chain_Image
+  Private_Chain_Image,
+  ChainLink_Image
 };
