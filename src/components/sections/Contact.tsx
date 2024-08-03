@@ -8,15 +8,16 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
+import {VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_SERVICE_TEMPLATE_ID, VITE_EMAILJS_ACCESS_TOKEN} from "./email_settings.json";
 
 const INITIAL_STATE = Object.fromEntries(
   Object.keys(config.contact.form).map((input) => [input, ""])
 );
 
 const emailjsConfig = {
-  serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_SERVICE_TEMPLATE_ID,
-  accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
+  serviceId: VITE_EMAILJS_SERVICE_ID,
+  templateId: VITE_EMAILJS_SERVICE_TEMPLATE_ID,
+  accessToken: VITE_EMAILJS_ACCESS_TOKEN,
 };
 
 const Contact = () => {
