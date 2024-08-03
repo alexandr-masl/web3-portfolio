@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { FaGithub, FaTelegram } from "react-icons/fa"; // Import icons
 
 import { EarthCanvas } from "../canvas";
 import { SectionWrapper } from "../../hoc";
@@ -14,7 +15,7 @@ const INITIAL_STATE = Object.fromEntries(
 
 const emailjsConfig = {
   serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
-  templateId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  templateId: import.meta.env.VITE_EMAILJS_SERVICE_TEMPLATE_ID,
   accessToken: import.meta.env.VITE_EMAILJS_ACCESS_TOKEN,
 };
 
@@ -108,6 +109,26 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        {/* Add the icons and links here */}
+        <div className="mt-8 flex justify-center space-x-4">
+          <a
+            href="https://github.com/alexandr-masl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-400"
+          >
+            <FaGithub size={50} />
+          </a>
+          <a
+            href="https://t.me/maslineze"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-gray-400"
+          >
+            <FaTelegram size={50} />
+          </a>
+        </div>
       </motion.div>
 
       <motion.div

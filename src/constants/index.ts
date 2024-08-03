@@ -142,7 +142,7 @@ const experiences: TExperience[] = [
   },
   {
     title: "GitCoin Rounds Participant",
-    projectLink: "https://builder.gitcoin.co/#/chains/42161/registry/0x/projects/0xd71334a228d2c9f81d67cba4f06896afa8255951444cd57e3c3a2299822e979e",
+    projectLink: "https://explorer.gitcoin.co/#/projects/0xd71334a228d2c9f81d67cba4f06896afa8255951444cd57e3c3a2299822e979e",
     companyName: "GitCoin",
     companyLink: "https://www.gitcoin.co/",
     icon: gitCoinLogo,
